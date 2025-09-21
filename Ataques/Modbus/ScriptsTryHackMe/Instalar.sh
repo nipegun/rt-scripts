@@ -71,14 +71,14 @@
       echo ""
     fi
   cd $HOME/HackingTools/Modbus/ScriptsTryHackMe/
-  curl -sL -O https://raw.githubusercontent.com/nipegun/dh-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/attack_move_fill.py
-  curl -sL -O https://raw.githubusercontent.com/nipegun/dh-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/attack_move_fill2.py
-  curl -sL -O https://raw.githubusercontent.com/nipegun/dh-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/attack_shutdown.py
-  curl -sL -O https://raw.githubusercontent.com/nipegun/dh-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/attack_shutdown2.py
-  curl -sL -O https://raw.githubusercontent.com/nipegun/dh-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/attack_stop_fill.py
-  curl -sL -O https://raw.githubusercontent.com/nipegun/dh-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/attack_stop_fill2.py
-  curl -sL -O https://raw.githubusercontent.com/nipegun/dh-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/discovery.py
-  curl -sL -O https://raw.githubusercontent.com/nipegun/dh-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/set_registry.py
+  curl -sL -O https://raw.githubusercontent.com/nipegun/rt-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/attack_move_fill.py
+  curl -sL -O https://raw.githubusercontent.com/nipegun/rt-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/attack_move_fill2.py
+  curl -sL -O https://raw.githubusercontent.com/nipegun/rt-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/attack_shutdown.py
+  curl -sL -O https://raw.githubusercontent.com/nipegun/rt-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/attack_shutdown2.py
+  curl -sL -O https://raw.githubusercontent.com/nipegun/rt-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/attack_stop_fill.py
+  curl -sL -O https://raw.githubusercontent.com/nipegun/rt-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/attack_stop_fill2.py
+  curl -sL -O https://raw.githubusercontent.com/nipegun/rt-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/discovery.py
+  curl -sL -O https://raw.githubusercontent.com/nipegun/rt-scripts/refs/heads/main/Ataques/Modbus/ScriptsTryHackMe/set_registry.py
   find $HOME/HackingTools/Modbus/ScriptsTryHackMe/ -type f -name '*.py' -exec chmod +x {} \;
 
 # Notificar fin de ejecución del script
